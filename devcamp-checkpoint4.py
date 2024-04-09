@@ -57,5 +57,6 @@ print(second_list)
 tuple_list = list(my_nums)
 tuple_list.append('a')
 my_nums = tuple(tuple_list)
-print(my_nums)
 
+my_nums = my_nums + ('b',)
+print(my_nums)
